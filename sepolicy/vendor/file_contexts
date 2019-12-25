@@ -19,8 +19,14 @@
 /sys/module/hall/parameters(/.*)?               u:object_r:hall_dev:s0
 
 # Firmware
-/firmware                                                     u:object_r:firmware_file:s0
-/bt_firmware                                                  u:object_r:bt_firmware_file:s0
+/bt_firmware                                    u:object_r:bt_firmware_file:s0
+/firmware                                       u:object_r:firmware_file:s0
+
+# Audio
+/dsp(/.*)?                                      u:object_r:adsprpcd_file:s0
+
+# Persist
+/persist(/.*)?                                  u:object_r:mnt_vendor_file:s0
 
 # Amplifier
 /(vendor|system/vendor)/bin/tinymix                           u:object_r:vendor_tinyalsa_exec:s0
