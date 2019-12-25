@@ -43,10 +43,6 @@ $(call inherit-product, $(COMMON_PATH)/properties.mk)
 PRODUCT_PACKAGES += \
     camera.sdm660_shim
 
-# RRO
-PRODUCT_ENFORCE_RRO_TARGETS := \
-    framework-res
-
 # Boot animation
 TARGET_BOOTANIMATION_SIZE := 1080p
 
@@ -61,9 +57,18 @@ PRODUCT_SOONG_NAMESPACES += \
     $(COMMON_PATH)
 
 # Overlays
-DEVICE_PACKAGE_OVERLAYS += \
-    $(COMMON_PATH)/overlay \
-    $(COMMON_PATH)/overlay-lineage
+PRODUCT_PACKAGES += \
+    SDM660CommonBluetoothRes \
+    SDM660CommonCarrierConfigRes \
+    SDM660CommonDocumentsUIRes \
+    SDM660CommonFrameworkPARes \
+    SDM660CommonFrameworkRes \
+    SDM660CommonSettingsLibRes \
+    SDM660CommonSettingsProviderRes \
+    SDM660CommonSystemUIPARes \
+    SDM660CommonSystemUIRes \
+    SDM660CommonTelecommRes \
+    SDM660CommonTelephonyRes
 
 # Permissions
 PRODUCT_COPY_FILES += \
