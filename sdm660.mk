@@ -38,6 +38,7 @@ COMMON_PATH := device/xiaomi/sdm660-common
 
 # Inherit properties
 $(call inherit-product, $(COMMON_PATH)/properties.mk)
+$(call inherit-product, frameworks/native/build/phone-xhdpi-4096-dalvik-heap.mk)
 
 # Shims
 PRODUCT_PACKAGES += \
