@@ -156,7 +156,7 @@ PRODUCT_PACKAGES += \
 
 # Doze
 PRODUCT_PACKAGES += \
-    XiaomiDoze
+    ParanoidDoze
 
 # DRM
 PRODUCT_PACKAGES += \
