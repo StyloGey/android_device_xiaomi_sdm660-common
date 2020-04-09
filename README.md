@@ -10,9 +10,6 @@ ROM     | 32/64/128GB
 RAM     | 3/4/6GB
 Android | 8.1.0
 
-Note:
-Depends on: android_packages_resources_devicesettings from LineageOS
-
 Currently Supported Devices: wayne (MI 6X), jasmine_sprout (MI A2), clover (MI PAD 4 /4 Plus),
 lavender (Redmi Note 7) and platina (Mi 8 Lite)
 ## Copyright
