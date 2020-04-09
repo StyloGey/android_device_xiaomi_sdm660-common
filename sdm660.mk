@@ -358,6 +358,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libjson
 
+# QTI common
+TARGET_COMMON_QTI_COMPONENTS := \
+    bt
+
 # QTI Performance
 PRODUCT_COPY_FILES += \
     $(COMMON_PATH)/configs/perf/perf-profile0.conf:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perf-profile0.conf
