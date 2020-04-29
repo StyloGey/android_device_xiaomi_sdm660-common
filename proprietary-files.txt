@@ -84,6 +84,18 @@ vendor/lib64/libbt-hidlclient.so|0a0d0ac4e2f4e2e80f4ec488b53c18c96ff08dc6
 vendor/lib64/libbtnv.so|a6793a7b93fa607fcec39da7479566f84ed39aa4
 vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so|9b7ae20ce9d6d2a67fdac94268cec441278cca3d
 
+# Bluetooth - from jasmine-user-10-QKQ1.190910.002-V11.0.6.0.QDIMIXM
+vendor/lib/btaudio_offload_if.so|d9a9795e173dffd4b5ee000acac66c1ad6f1648c
+vendor/lib/hw/audio.bluetooth_qti.default.so|c64b101dd33042d2f702ab5059231ca9684fc1d0
+vendor/lib/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so|947afef6bf7a05a9a2b45022edfed06bd7c00e64
+vendor/lib/libbluetooth_audio_session_qti.so|53fd0369c50fbaef12c22e25e3073a6fc9f05bb7
+vendor/lib/libbthost_if.so|56a8adf02a487b8f60dbcff3367959ec62547513
+vendor/lib64/btaudio_offload_if.so|9caa0bbcb821e6368d5fc27188e32c92e83c6367
+vendor/lib64/hw/audio.bluetooth_qti.default.so|5f9bf6e3398fc15d99c24213fd700cb83635a1a5
+vendor/lib64/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so|332bbe7b0e76358500605f7651b0dcfa0cd7f27b
+vendor/lib64/libbluetooth_audio_session_qti.so|1ad5ed72708f791f9b70ca1b4a6e221855dbfa8e
+vendor/lib64/libbthost_if.so|dce04f6d5398838fa65c2e592f952931ced26da4
+
 # Charger - from LA.UM.8.2.r1-06200-sdm660.0
 vendor/bin/hvdcp_opti|8473b304aa2300c425e090da6688c1c124305b97
 
