@@ -37,6 +37,9 @@ $(call inherit-product, $(COMMON_PATH)/common_prop.mk)
 # Audio
 $(call inherit-product, vendor/qcom/opensource/audio-hal/primary-hal/configs/sdm660/sdm660.mk)
 
+PRODUCT_COPY_FILES += \
+    $(COMMON_PATH)/configs/audio/audio_policy_configuration_a2dp_offload_disabled.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_configuration_a2dp_offload_disabled.xml
+
 PRODUCT_PACKAGES += \
     audio.a2dp.default \
     audio_amplifier.sdm660 \
